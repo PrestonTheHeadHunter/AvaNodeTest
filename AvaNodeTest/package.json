@@ -1,0 +1,9 @@
+{
+  "name": "ava-node-test",
+  "version": "0.0.0",
+  "description": "AvaNodeTest",
+  "main": "server.js",
+  "author": {
+    "name": "preston.hale"
+  }
+}
