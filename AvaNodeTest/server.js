@@ -10,10 +10,10 @@ var controllers = require("./controllers");
 
 controllers.init(app);
 
-app.get("/", function (req, res) {
-    req.params
+//app.get("/", function (req, res) {
+//    req.params
 
-})
+//})
 
 var server = http.createServer(app);
 
