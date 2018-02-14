@@ -6,22 +6,15 @@ var express = require("express");
 
 var app = express();
 
+var controllers = require("./controllers");
 
-app.get("/api/users", function (req, res) {
-    res.send({
-        name: "Preston",
-        IsValid: true,
-        group: "Admin"
-    })
-});
+controllers.init(app);
+
+app.get("/", function (req, res) {
+    req.params
+
+})
 
 var server = http.createServer(app);
 
-
 server.listen(port);
-
-
-//http.createServer(function (req, res) {
-//    res.writeHead(200, { 'Content-Type': 'text/plain' });
-//    res.end('Hello World\n');
-//}).listen(port);
