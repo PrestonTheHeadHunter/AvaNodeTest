@@ -2,8 +2,8 @@
 
     readController.init = function (app) {
 
-        app.get("/", function (req, res) {
-            res.send("ROOT")
+        app.get("/api/read", function (req, res) {
+            res.send("ROOT DATA")
         });
 
     };

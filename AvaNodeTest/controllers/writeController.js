@@ -6,7 +6,7 @@
             var params = req.params.data;
             res.send("written + " + params);
         });
-   
+        
         app.post('/api/write', function (req, res) {
             var params = req.params;
                         
